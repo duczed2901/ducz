@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHUOCDUCLAPTOP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .img{
+            width: 100%;
+        }
+
+        input{
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .gio-hang{
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 4px #ddd ;
+            padding: 20px;
+            margin: auto;
+            max-width: 1100px;
+        }
+
+        .item-gio-hang{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .item-gio-hang .hinh-anh img{
+            width: 60px;
+            height: 60px;
+        }
+
+        .item-gio-hang .hinh-anh, .soluong, .tongtien, .hanhdong{
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .item-gio-hang .gia{
+            flex: 2;
+        }
+
+        .item-gio-hang .ten{
+            flex: 3;
+        }
+
+        .item-gio-hang .gia .Gia{
+            color: lightcoral;
+        }
+
+        .item-gio-hang .hanhdong i:hover{
+            color: orangered;
+        }   
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <img src="img/" alt="">
+                <h1>PHUOCDUCLAPTOP</h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                        <li><a href="lienhe.html">Liên Hệ</a></li>
+                        <li><a href="hoidap.html">Hỏi Đáp</a></li>
+                    </ul>
+                </nav>
+            </div>
+             <div class="header-right">
+                <div class="icon-container">
+                    <a href="giohang.html" class="icon-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Giỏ hàng</span>
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <a href="dangnhap.html" class="icon-link">
+                        <i class="fas fa-user"></i>
+                        <span>Đăng nhập</span>
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <a href="dangky.html" class="icon-link">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Đăng ký</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <h2>Sản Phẩm Của Chúng Tôi</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/dell-inspiron-15-3520-i5-25p231-250424-020344-600x600.jpg" alt="Laptop Dell Inspiron">
+                    <h3>Laptop Dell Inspiron</h3>
+                    <p class="price">6.500.000 vnđ</p>
+    
+                </div>
+                <div class="product">
+                    <img src="img/47213_laptop_lenovo_v14_g4_iru_83a0000mvn__4_.jpg" alt="Laptop Lenovo V14 G4">
+                    <h3>Laptop Lenovo V14 G4</h3>
+                    <p class="price">11.500.000 vnđ</p>
+    
+                </div>
+                <div class="product">
+                    <img src="img/asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg" alt="Laptop gaming ASUS TUF">
+                    <h3>Laptop gaming ASUS TUF</h3>
+                    <p class="price">15.400.000 vnđ</p>
+    
+                </div>
+                <div class="product">
+                    <img src="img/msi-gaming-gf63-thin-11uc-i7-1228vn-thumb-600x600.jpg" alt="Laptop gaming MSI GF63">
+                    <h3>Laptop gaming MSI GF63</h3>
+                    <p class="price">16.000.000 vnđ</p>
+
+                </div>
+            </div>
+
+            <hr>
+
+
+
+            <div class="gio-hang">
+                <div class="item-gio-hang">
+                    <div class="hinh-anh">
+                        <img src="img/dell-inspiron-15-3520-i5-25p231-250424-020344-600x600.jpg" alt="">
+                    </div>
+                    <p class="ten">LAPTOP DELL INSPIRATION</p>
+                    <div class="gia">
+                        <span class="Gia">6.500.000 vnđ</span>
+                    </div>
+                    <input type="number" min="0" class="soluong" value="1">
+   
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="gio-hang">
+                <div class="item-gio-hang">
+                    <div class="hinh-anh">
+                        <img src="img/47213_laptop_lenovo_v14_g4_iru_83a0000mvn__4_.jpg" alt="">
+                    </div>
+                    <p class="ten">LAPTOP LENOVO V14 G4</p>
+                    <div class="gia">
+                        <span class="Gia">6.500.000 vnđ</span>
+                    </div>
+                    <input type="number" min="0" class="soluong" value="1">
+   
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="gio-hang">
+                <div class="item-gio-hang">
+                    <div class="hinh-anh">
+                        <img src="img/asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg" alt="">
+                    </div>
+                    <p class="ten">LAPTOP GAMING ASUS TUF</p>
+                    <div class="gia">
+                        <span class="Gia">11.500.000 vnđ</span>
+                    </div>
+                    <input type="number" min="0" class="soluong" value="1">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="gio-hang">
+                <div class="item-gio-hang">
+                    <div class="hinh-anh">
+                        <img src="img/msi-gaming-gf63-thin-11uc-i7-1228vn-thumb-600x600.jpg" alt="">
+                    </div>
+                    <p class="ten">LAPTOP GAMING MSI GF63</p>
+                    <div class="gia">
+                        <span class="Gia">15.400.000 vnđ</span>
+                    </div>
+                    <input type="number" min="0" class="soluong" value="1">
+  
+                    </div>
+                </div>
+
+            </div>
+            
+        </main>
+
+        <footer>
+            <p>PHAN PHƯỚC ĐỨC</p>
+        </footer>
+    </div>
+</body>
+</html>
